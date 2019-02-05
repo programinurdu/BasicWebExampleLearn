@@ -7,21 +7,22 @@
 </head>
 <body>
 
-    <p>Dropdown Example</p>
+    <div class="container">
+        <h3>Dropdown Example</h3>
+        <hr />
+        <p>
+            Do you to apply for loan?
+            <select name="ddlyesno" id="ddlyesno" onchange="enabletxt2()">
+                <option value="noval">-- Select --</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </p>
 
-    <p>
-        Do you to apply for loan? 
-        <select name="ddlyesno" id="ddlyesno" onchange="enabletxt()">
-            <option value="noval">-- Select --</option>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
-    </p>
-
-    <p>
         <p>Comments:</p>
         <textarea id="comment" name="comment" cols="40" rows="5" disabled></textarea>
-    </p>
+
+    </div>
 
     <script src="../design/js/jquery-3.2.1.js"></script>
     <script src="../design/js/bootstrap3x.js"></script>

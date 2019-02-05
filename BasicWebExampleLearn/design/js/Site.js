@@ -45,7 +45,7 @@ function SubtractNumbers() {
     document.getElementsByName('result')[0].value = result;
 }
 
-function enabletxt() {
+function enabletxt2() {
     //var e = document.getElementById('ddlyesno');
     //var val = e.options[e.selectedIndex].value;
 
@@ -62,7 +62,7 @@ function enabletxt() {
 
 function enabletxt(val) {
 
-    if (val === 'yes' || val === '') {
+    if (val === 'yes') {
         document.getElementById('comment').disabled = false;
     }
     else {
